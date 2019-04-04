@@ -1,21 +1,7 @@
-/* Thomsoon.com - OnePage CSS Responsive theme
--- version 1.0
--- Copyright (c) 2014 Thomsoon.com
--- licensed under the MIT
---
--- http://www.thomsoon.com/
---
-*/
 
 /* Font Google - strong reaload time */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,300,100,700,900&subset=latin,latin-ext);
-
-
-/*
- * Theme Name: Onepage
- * Author: Thomsoon
- * Created: 14/11/2014
- */
+@import url(https://fonts.google.com/specimen/Raleway?selection.family=Raleway);
 
 
 .preloader{
@@ -38,7 +24,7 @@
 
 
 html, body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size:15px;
   -webkit-font-smoothing: subpixel-antialiased!important;
   color:black;
@@ -148,13 +134,12 @@ h1 span{
   height:520px;
 }
 
-.start-page .content .text .logo{
+.start-page .content .text .logo img{
   width:123px;
   height:123px;
   margin:0 auto 50px;
   
 }
-
 
 .start-page .content .text .read-more{
   width:183px;
@@ -178,8 +163,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #db016b;
+  border:1px solid #dddddd;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +207,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background: #db016b; 
   z-index:1000;
   display:none;
 }
@@ -234,7 +219,7 @@ h1 span{
 }
 
 .menu-media .menu-content .logo {
-   color:white;
+   color:White;
    font-weight:700;
    font-size:24px;
    width:200px;
@@ -332,11 +317,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#dddddd;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#dddddd;
 }
 
 
@@ -714,8 +699,13 @@ h1 span{
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
 	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  max-width: 140px;
+  max-height: 90px;
+  margin-left: 2%;
 }
+
+
 
 .partners .logo img:hover{
   opacity:1;
@@ -875,7 +865,7 @@ input.submit{
   position:fixed;
   bottom:0;
   width:100%;
-  background:#3c3c3c;
+  background:#db016b;
 }
 
 .footer .logo{
@@ -901,7 +891,7 @@ input.submit{
 .footer .menu-footer a{
   line-height:46px;
   padding:10px;
-  color:#a4a4a4;
+  color:#f2f2f2;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
 	-ms-transition: all 0.2s ease-in;
@@ -910,7 +900,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#ada074;
+  color:#f2f2f2;
 }
 
 
@@ -923,6 +913,6 @@ input.submit{
   text-align:center;
   font-size:14px;
   line-height:36px;
-  color:#a4a4a4;
+  color:#f2f2f2;
 }
 
