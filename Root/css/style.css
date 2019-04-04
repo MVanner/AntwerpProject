@@ -391,11 +391,12 @@ h1 span{
   font-size:14px;
   width:250px;
   margin:30px auto;
-  color:#a4a4a4;
+  color:#969292;
   line-height:26px;
   letter-spacing:0;
   position:relative;
   font-weight:300;
+  text-transform: Uppercase;
 }
 
 .about-us .column-one{
@@ -408,10 +409,11 @@ h1 span{
 
 .about-us .column-one .circle-one{
   height: 100px;
-  position:relative;
+  position: relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/responsive.png) white no-repeat center center;
+  background: url(../img/icons/Vision.png) white no-repeat center center;
+  background-size: 95px;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -425,7 +427,7 @@ h1 span{
 }
 
 .about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+  border:2px solid #dddddd;
 
 }
 
@@ -442,7 +444,8 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url(../img/icons/Mission.png) white no-repeat center center;
+  background-size: 95px;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -456,7 +459,7 @@ h1 span{
 }
 
 .about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+  border:2px solid #dddddd;
 }
 
 
@@ -473,7 +476,8 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url(../img/icons/Value.png) white no-repeat center center;
+  background-size: 95px;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -487,7 +491,7 @@ h1 span{
 }
 
 .about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+  border:2px solid #dddddd;
 }
 
 
@@ -652,12 +656,13 @@ h1 span{
   width:100%;
   z-index:10;
   height:400px;
-  background:url('../img/background/partners.jpg') 0px 0px fixed;
+  background:#dddddd 0px 0px fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+/* url('../img/background/partners.jpg')  */
 
 .partners .opacity{
   position:absolute;
@@ -686,11 +691,11 @@ h1 span{
 }
 
 .partners .logo{
-  position:relative;
+  position: absolute;
   width:900px;
   overflow:hidden;
   margin-top:50px;
-  text-align:center;
+  text-align: center;
 }
 
 .partners .logo img{
