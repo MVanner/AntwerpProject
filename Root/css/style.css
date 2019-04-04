@@ -258,7 +258,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#dddddd;
  }
 
 
@@ -268,7 +268,7 @@ h1 span{
   position:relative;
   width:100%;
   height:60px;
-  background:white;
+  background:#db016b;
   border-bottom:1px solid #f2f2f2;
   z-index:1000;
 }
@@ -280,7 +280,7 @@ h1 span{
 }
 
 .menu-content .logo {
-   color:#333;
+   color: White;
    font-weight:700;
    font-size:24px;
    width:300px;
@@ -304,7 +304,7 @@ h1 span{
 }
 
 .menu-content li a{
-  color:#333;
+  color:white;
   font-size:16px;
   display: block;
   padding: 0 20px 0 20px;
@@ -862,18 +862,20 @@ input.submit{
 
 
 .footer{
-  position:fixed;
+  position: relative;
   bottom:0;
   width:100%;
   background:#db016b;
 }
 
-.footer .logo{
+.footer .logo img{
 
-  position:relative;
+  position:Center;
   width:58px;
   height:58px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   padding-top:50px;
 
 }
